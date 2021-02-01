@@ -71,8 +71,12 @@ public class MovingSphere : MonoBehaviour
         if (onGround || jumpPhase < maxAirJumps)
         {
             jumpPhase += 1;
-            // vy = sqrt(-2gh)
-            velocity.y += Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
+            float jumpSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
+            if (velocity.y > 0f)
+            {
+                jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0);
+            }
+            velocity.y += jumpSpeed;
         }
     }
     void OnCollisionEnter(Collision collision)
