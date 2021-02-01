@@ -48,7 +48,8 @@ public class MovingSphere : MonoBehaviour
 
     void FixedUpdate()
     {
-        velocity = body.velocity;
+        //velocity = body.velocity;
+        UpdateState();
         float maxSpeedChange = maxAcceleration * Time.deltaTime;
         velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
         velocity.z = Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
@@ -67,8 +68,9 @@ public class MovingSphere : MonoBehaviour
     }
     void Jump()
     {
-        if (onGround)
+        if (onGround || jumpPhase < maxAirJumps)
         {
+            jumpPhase += 1;
             // vy = sqrt(-2gh)
             velocity.y += Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
         }
@@ -93,4 +95,12 @@ public class MovingSphere : MonoBehaviour
         }
     }
 
+    void UpdateState()
+    {
+        velocity = body.velocity;
+        if (onGround)
+        {
+            jumpPhase = 0;
+        }
+    }
 }
