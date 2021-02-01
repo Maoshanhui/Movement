@@ -2359,6 +2359,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (1)
@@ -2415,6 +2419,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -2636,6 +2644,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -3555,6 +3567,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (2)
@@ -4209,6 +4225,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (0)
@@ -4666,6 +4686,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -5154,6 +5178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere
@@ -5472,6 +5500,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (11)
@@ -5692,6 +5724,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -6271,6 +6307,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (15)
@@ -6327,6 +6367,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -6814,6 +6858,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (16)
@@ -7287,6 +7335,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -7866,6 +7918,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (5)
@@ -7922,6 +7978,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -9639,6 +9699,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
       value: Sphere (13)
@@ -10187,6 +10251,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
@@ -11915,6 +11983,10 @@ PrefabInstance:
     - target: {fileID: 5666000654217996161, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666000654217996170, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
+      propertyPath: maxGroundAngle
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5666000654217996171, guid: df853a8eb3c19e74591a8661e164c4a6, type: 3}
       propertyPath: m_Name
