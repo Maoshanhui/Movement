@@ -26,6 +26,7 @@ public class MovingSphere : MonoBehaviour
     Rigidbody body;
 
     Vector3 velocity, desiredVelocity;
+    Vector3 contactNormal;
 
     bool desiredJump;
     bool onGround;
@@ -84,11 +85,12 @@ public class MovingSphere : MonoBehaviour
         {
             jumpPhase += 1;
             float jumpSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
-            if (velocity.y > 0f)
+            float alignedSpeed = Vector3.Dot(velocity, contactNormal);
+            if (alignedSpeed > 0f)
             {
                 jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0);
             }
-            velocity.y += jumpSpeed;
+            velocity += contactNormal * jumpSpeed;
         }
     }
     void OnCollisionEnter(Collision collision)
@@ -107,7 +109,12 @@ public class MovingSphere : MonoBehaviour
         for (int i = 0; i < collision.contactCount; ++i)
         {
             Vector3 normal = collision.GetContact(i).normal;
-            onGround |= normal.y >= minGroundDotProduct;
+            //onGround |= normal.y >= minGroundDotProduct;
+            if (normal.y >= minGroundDotProduct)
+            {
+                onGround = true;
+                contactNormal = normal;
+            }
         }
     }
 
@@ -117,6 +124,10 @@ public class MovingSphere : MonoBehaviour
         if (onGround)
         {
             jumpPhase = 0;
+        }
+        else
+        {
+            contactNormal = Vector3.up;
         }
     }
 }
